@@ -1,0 +1,990 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+body{
+    background-color: #181820;
+    overflow: hidden;
+}
+.APE {
+    color: #ff2774;
+    font-size: 78px;
+    text-decoration: none;
+    padding: 0;
+    top: 20%;
+    left: 2%;
+    position: absolute;
+    display: flex;
+    font-family: system-ui;
+    animation: Titulo 2s ease;
+}
+@keyframes Titulo {
+    from{
+        opacity: 0;
+        left: -10%;
+    }
+    to{
+        opacity: 1;
+        left: 2%;
+    }
+}
+.QUE {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0;
+    top: 45%;
+    font-size: 54px;
+    left: 2%;
+    position: absolute;
+    display: flex;
+    opacity: 0;
+    animation: Descendo 2s ease;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+}
+@keyframes Descendo {
+    from{
+        opacity: 0;
+        top: 20%
+    }
+    to{
+        opacity: 1;
+        top: 24%;
+    }
+}
+.Sobre {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0;
+    width: 780px;
+    opacity: 0;
+    bottom: 4%;
+    font-size: 34px;
+    left: 2%;
+    position: absolute;
+    display: flex;
+    font-family: system-ui;
+    animation: Titulo 2s ease;
+    animation-delay: 2.5s;
+    animation-fill-mode: both;
+}
+.fota{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    border-radius: 50%;
+    animation: vem ease 2s;
+}
+@keyframes vem {
+    from{
+        opacity: 0;
+        right: -10%;
+    }
+    to{
+        opacity: 1;
+        right: 1%;
+    }
+}
+.like{
+    color: aliceblue;
+        font-family: sans-serif;
+    font-size: 150px;
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    letter-spacing: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    animation: direitas 2s ease;
+}
+@keyframes direitas {
+    from{
+        right: -10%;
+        opacity: 0%;
+    }
+    to{
+        right: 5%;
+        opacity: 1;
+    }
+}
+.Am{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 150px;
+    position: absolute;
+    right: 6.5%;
+    opacity: 0;
+    top: 35%;
+    letter-spacing: 20px;
+    animation: dumbass 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes dumbass{
+    from{
+        top: 20%;
+        opacity: 0;
+    }
+    to{
+        top: 35%;
+        opacity: 1;
+    }
+}
+.Ami{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 150px;
+    position: absolute;
+    right: 6.5%;
+    top: 55%;
+    opacity: 50%;
+    letter-spacing: 20px;
+    animation: uglyasfck 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes uglyasfck{
+    from{
+        top: 20%;
+        opacity: 0;
+    }
+    to{
+        top: 55%;
+        opacity: 50%;
+    }
+}
+.Amanto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 150px;
+    position: absolute;
+    right: 6.5%;
+    top: 75%;
+    letter-spacing: 20px;
+    opacity: 25%;
+    animation: niceman 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes niceman{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 75%;
+        opacity: 25%;
+    }
+}
+@media only screen and (min-width: 320px){
+    .APE{
+        font-size: 30px;
+        left: 5%;
+        top: 7%;
+    } 
+    @keyframes Titulo {
+    from{
+        opacity: 0;
+        left: -10%;
+    }
+    to{
+        opacity: 1;
+        left: 5%;
+    }
+}
+    .QUE{
+        font-size: 25px;
+        left: 5%; 
+        top: 9%;
+        }
+    @keyframes Descendo {
+    from{
+        opacity: 0;
+        top: 9%
+    }
+    to{
+        opacity: 1;
+        top: 12%;
+    }
+}
+    .Sobre{
+    font-size: 18px;
+    top: 17%;
+    width: 270px 
+    }
+    .Am{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 90px;
+    position: absolute;
+    right: 15%;
+    opacity: 0;
+    top: 35%;
+    width: 240px;
+    letter-spacing: 10px;
+    animation: dumbass 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+    @keyframes dumbass{
+    from{
+        top: 48%;
+        opacity: 0;
+    }
+    to{
+        top: 60%;
+        opacity: 1;
+    }
+}
+    .like{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 90px;
+    position: absolute;
+    right: 7%;
+    top: 48%;
+    letter-spacing: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    animation: direitas 2s ease;
+}
+    @keyframes direitas {
+    from{
+        right: -20%;
+        opacity: 0%;
+    }
+    to{
+        right: 7%;
+        opacity: 1;
+    }
+}
+    .Ami{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 90px;
+    position: absolute;
+    right: 15%;
+    opacity: 50%;
+     width: 240px;
+    letter-spacing: 10px;
+    animation: uglyasfck 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes uglyasfck{
+    from{
+        top: 48%;
+        opacity: 0;
+    }
+    to{
+        top: 72%;
+        opacity: 50%;
+    }
+}
+    .Amanto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 90px;
+    position: absolute;
+    right: 15%;
+    opacity: 50%;
+     width: 240px;
+    letter-spacing: 10px;
+    opacity: 25%;
+    animation: niceman 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes niceman{
+    from{
+        top: 48%;
+        opacity: 0;
+    }
+    to{
+        top: 83%;
+        opacity: 25%;
+    }
+}
+    .Lore{
+    font-family: monospace;
+    color: aliceblue;
+    text-decoration: none;
+    position: absolute;
+    opacity: 0;
+    font-size: 15px;
+    left: 5%;
+    top: 4%;
+    animation: Lore 2s ease;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+    @keyframes Lore {
+    from{
+        opacity: 0;
+        top: -20%;
+    }
+    to{
+        opacity: 1;
+        top: 2%;
+    }
+}
+}
+@media only screen and (min-width: 375px){
+    .APE{
+        font-size: 30px;
+        left: 5%;
+        top: 7%;
+    } 
+    @keyframes Titulo {
+    from{
+        opacity: 0;
+        left: -10%;
+    }
+    to{
+        opacity: 1;
+        left: 5%;
+    }
+}
+    .QUE{
+        font-size: 25px;
+        left: 5%; 
+        top: 7%;
+        }
+    @keyframes Descendo {
+    from{
+        opacity: 0;
+        top: 9%
+    }
+    to{
+        opacity: 1;
+        top: 12%;
+    }
+}
+    .Sobre{
+    font-size: 18px;
+    top: 17%;
+    width: 320px 
+    }
+    .Am{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 10%;
+    opacity: 0;
+    width: 290px;
+    letter-spacing: 10px;
+    animation: dumbass 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+    @keyframes dumbass{
+    from{
+        top: 42%;
+        opacity: 0;
+    }
+    to{
+        top: 56%;
+        opacity: 1;
+    }
+}
+    .like{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 1%;
+    top: 42%;
+    letter-spacing: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    animation: direitas 2s ease;
+}
+    @keyframes direitas {
+    from{
+        right: -40%;
+        opacity: 0%;
+    }
+    to{
+        right: 1%;
+        opacity: 1;
+    }
+}
+    .Ami{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 10%;
+    opacity: 50%;
+     width: 290px;
+    letter-spacing: 10px;
+    animation: uglyasfck 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes uglyasfck{
+    from{
+        top: 42%;
+        opacity: 0;
+    }
+    to{
+        top: 70%;
+        opacity: 50%;
+    }
+}
+    .Amanto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 10%;
+    opacity: 50%;
+     width: 290px;
+    letter-spacing: 10px;
+    opacity: 25%;
+    animation: niceman 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes niceman{
+    from{
+        top: 42%;
+        opacity: 0;
+    }
+    to{
+        top: 84%;
+        opacity: 25%;
+    }
+}
+}
+@media only screen and (min-width: 425px){
+    .APE{
+        font-size: 35px;
+        left: 5%;
+        top: 7%;
+    } 
+    @keyframes Titulo {
+    from{
+        opacity: 0;
+        left: -10%;
+    }
+    to{
+        opacity: 1;
+        left: 5%;
+    }
+}
+    .QUE{
+        font-size: 30px;
+        left: 5%; 
+        top: 9%;
+        }
+    @keyframes Descendo {
+    from{
+        opacity: 0;
+        top: 9%
+    }
+    to{
+        opacity: 1;
+        top: 12%;
+    }
+}
+    .Sobre{
+    font-size: 20px;
+    top: 18%;
+    width: 350px 
+    }
+    .Am{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 16%;
+    opacity: 0;
+    top: 35%;
+    width: 290px;
+    letter-spacing: 10px;
+    animation: dumbass 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+    @keyframes dumbass{
+    from{
+        top: 45%;
+        opacity: 0;
+    }
+    to{
+        top: 58%;
+        opacity: 1;
+    }
+}
+    .like{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 8%;
+    top: 45%;
+    letter-spacing: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    animation: direitas 2s ease;
+}
+    @keyframes direitas {
+    from{
+        right: -20%;
+        opacity: 0%;
+    }
+    to{
+        right: 8%;
+        opacity: 1;
+    }
+}
+    .Ami{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 16%;
+    opacity: 50%;
+     width: 290px;
+    letter-spacing: 10px;
+    animation: uglyasfck 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes uglyasfck{
+    from{
+        top: 45%;
+        opacity: 0;
+    }
+    to{
+        top: 71%;
+        opacity: 50%;
+    }
+}
+    .Amanto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 16%;
+    opacity: 50%;
+     width: 290px;
+    letter-spacing: 10px;
+    opacity: 25%;
+    animation: niceman 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes niceman{
+    from{
+        top: 48%;
+        opacity: 0;
+    }
+    to{
+        top: 84%;
+        opacity: 25%;
+    }
+}
+}
+@media only screen and (min-width: 768px){
+    .APE{
+        font-size: 45px;
+        left: 5%;
+        top: 10%;
+    } 
+    @keyframes Titulo {
+    from{
+        opacity: 0;
+        left: -10%;
+    }
+    to{
+        opacity: 1;
+        left: 5%;
+    }
+}
+    .QUE{
+        font-size: 30px;
+        left: 5%; 
+        top: 10%;
+        }
+    @keyframes Descendo {
+    from{
+        opacity: 0;
+        top: 13%
+    }
+    to{
+        opacity: 1;
+        top: 17%;
+    }
+}
+    .Sobre{
+    font-size: 29px;
+    top: 23%;
+    width: 320px 
+    }
+    .Am{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 6%;
+    opacity: 0;
+    top: 30%;
+    width: 290px;
+    letter-spacing: 10px;
+    animation: dumbass 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+    @keyframes dumbass{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 25%;
+        opacity: 1;
+    }
+}
+    .like{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    letter-spacing: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    animation: direitas 2s ease;
+}
+    @keyframes direitas {
+    from{
+        right: -20%;
+        opacity: 0%;
+    }
+    to{
+        right: 2%;
+        opacity: 1;
+    }
+}
+    .Ami{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 6%;
+    opacity: 50%;
+     width: 290px;
+    letter-spacing: 10px;
+    animation: uglyasfck 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes uglyasfck{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 40%;
+        opacity: 50%;
+    }
+}
+    .Amanto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 120px;
+    position: absolute;
+    right: 6%;
+    opacity: 50%;
+     width: 290px;
+    letter-spacing: 10px;
+    opacity: 25%;
+    animation: niceman 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes niceman{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 55%;
+        opacity: 25%;
+    }
+}
+}
+@media only screen and (min-width: 1024px){
+    .APE{
+        font-size: 75px;
+        left: 5%;
+        top: 10%;
+    } 
+    @keyframes Titulo {
+    from{
+        opacity: 0;
+        left: -10%;
+    }
+    to{
+        opacity: 1;
+        left: 5%;
+    }
+}
+    .QUE{
+        font-size: 50px;
+        left: 5%; 
+        top: 10%;
+        }
+    @keyframes Descendo {
+    from{
+        opacity: 0;
+        top: 15%
+    }
+    to{
+        opacity: 1;
+        top: 23%;
+    }
+}
+    .Sobre{
+    font-size: 35px;
+    top: 32%;
+    width: 600px 
+    }
+    .Am{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 130px;
+    position: absolute;
+    right: 6%;
+    opacity: 0;
+    top: 30%;
+    width: 310px;
+    letter-spacing: 10px;
+    animation: dumbass 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+    @keyframes dumbass{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 28%;
+        opacity: 1;
+    }
+}
+    .like{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 130px;
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    letter-spacing: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    animation: direitas 2s ease;
+}
+    @keyframes direitas {
+    from{
+        right: -20%;
+        opacity: 0%;
+    }
+    to{
+        right: 2%;
+        opacity: 1;
+    }
+}
+    .Ami{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 130px;
+    position: absolute;
+    right: 6%;
+    opacity: 50%;
+     width: 310px;
+    letter-spacing: 10px;
+    animation: uglyasfck 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes uglyasfck{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 48%;
+        opacity: 50%;
+    }
+}
+    .Amanto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 130px;
+    position: absolute;
+    right: 6%;
+    opacity: 50%;
+     width: 310px;
+    letter-spacing: 10px;
+    opacity: 25%;
+    animation: niceman 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes niceman{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 68%;
+        opacity: 25%;
+    }
+}
+}
+@media only screen and (min-width: 1440px){
+    .APE{
+        font-size: 85px;
+        left: 5%;
+        top: 10%;
+    } 
+    @keyframes Titulo {
+    from{
+        opacity: 0;
+        left: -10%;
+    }
+    to{
+        opacity: 1;
+        left: 5%;
+    }
+}
+    .QUE{
+        font-size: 70px;
+        left: 5%; 
+        top: 22%;
+        }
+    @keyframes Descendo {
+    from{
+        opacity: 0;
+        top: 15%
+    }
+    to{
+        opacity: 1;
+        top: 22%;
+    }
+}
+    .Sobre{
+    font-size: 42px;
+    top: 35%;
+    width: 800px 
+    }
+    .Am{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 160px;
+    position: absolute;
+    right: 6%;
+    opacity: 0;
+    top: 30%;
+    width: 380px;
+    letter-spacing: 10px;
+    animation: dumbass 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+    @keyframes dumbass{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 30%;
+        opacity: 1;
+    }
+}
+    .like{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 180px;
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    letter-spacing: 20px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: aliceblue;
+    animation: direitas 2s ease;
+}
+    @keyframes direitas {
+    from{
+        right: -20%;
+        opacity: 0%;
+    }
+    to{
+        right: 2%;
+        opacity: 1;
+    }
+}
+    .Ami{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 160px;
+    position: absolute;
+    right: 6%;
+    opacity: 50%;
+     width: 380px;
+    letter-spacing: 10px;
+    animation: uglyasfck 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes uglyasfck{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 48%;
+        opacity: 50%;
+    }
+}
+    .Amanto{
+    color: aliceblue;
+    font-family: sans-serif;
+    font-size: 160px;
+    position: absolute;
+    right: 6%;
+    opacity: 50%;
+     width: 380px;
+    letter-spacing: 10px;
+    opacity: 25%;
+    animation: niceman 2s ease;
+    animation-fill-mode: both;
+    animation-delay: 1.5s;
+}
+@keyframes niceman{
+    from{
+        top: 10%;
+        opacity: 0;
+    }
+    to{
+        top: 67%;
+        opacity: 25%;
+    }
+}
+}
